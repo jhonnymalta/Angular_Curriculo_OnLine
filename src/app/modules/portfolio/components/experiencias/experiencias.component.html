@@ -1,15 +1,17 @@
 <div class="container">
     <h2>Experiências</h2>
     @for (item of arrayExperiencias(); track $index) {
-        <details>
-            <summary>
-                <p>
-                    <strong>{{item.summary.strong}}</strong>
-                     {{item.summary.p}}
-                </p>
-            </summary>
-            <article [innerHTML]="item.text"></article>
-        </details>
+        <div class="card-experience">
+            <div class="card-left">
+                <strong>{{item.summary.strong}}</strong>
+                <p>{{item.summary.p}}</p>
+            </div>
+            <div class="card-right">
+                <p [innerHTML]="item.text"></p>
+            </div>
+        </div>
+        
+        
     }
     
 </div>

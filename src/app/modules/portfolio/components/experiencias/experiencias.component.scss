@@ -1,0 +1,30 @@
+:host{
+    border-top: 5px solid rgb(179, 179, 179);
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    background-color: #93bd15;
+
+    h2{
+        
+        text-align: center;
+        margin:  25px 0 25px 0;
+    }
+    .card-experience{
+        margin-bottom: 15px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      
+    }
+    .card-left{
+
+    }
+
+   
+}
